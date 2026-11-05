@@ -1,0 +1,18 @@
+---
+title: "Analyzing NBA Recruits"
+author: "[Your Name]"
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+#| message: false
+nba_recruits <- read_excel("data/nba_recruits.xlsx")
+glimpse(nba_recruits)
+```
